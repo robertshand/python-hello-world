@@ -14,7 +14,7 @@ class myHandler(BaseHTTPRequestHandler):
     self.send_header('Content-type','text/html')
     self.end_headers()
     # Send the html message
-    self.wfile.write("Hello World !\n")
+    self.wfile.write("*** Python Hello World ! ***\n")
     self.wfile.write("WELCOME_MSG : " + os.getenv('WELCOME_MSG', 'undef') )
     self.wfile.write("\n")
     self.wfile.write("Hostname is : " + subprocess.check_output("uname -n", shell=True))
