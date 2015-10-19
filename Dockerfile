@@ -1,7 +1,5 @@
-FROM gliderlabs/alpine:3.1
+FROM python:2.7-onbuild
 
-RUN apk-install python
-ADD . /app
-WORKDIR /app
-CMD ./hello-world.py
 EXPOSE 80
+
+ENTRYPOINT ["python", "/usr/src/app/hello-world.py"]
