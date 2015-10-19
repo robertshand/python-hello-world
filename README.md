@@ -32,7 +32,7 @@ docker build -t robertshand/python-hello-world .
 
 ### To Run
 ```
-docker run -d -p 80:80 -e WELCOME_MSG="Hello Worlda" robertshand/python-hello-world
+docker run -d -p 80:80 -e WELCOME_MSG="Hello World" robertshand/python-hello-world
 ```
 
 ### To Test
