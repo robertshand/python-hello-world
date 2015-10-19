@@ -1,4 +1,8 @@
-# Simple Web Server written in 'Python' to Display $WELCOME_MSG, Hostname, and $PID
+# Simple Web Server written in 'Python' 
+Displays 
+ * $WELCOME_MSG
+ * Hostname
+ * $PID
 
 ## To Run:
 
