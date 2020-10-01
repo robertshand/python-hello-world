@@ -1,6 +1,6 @@
 # Simple Web Server written in 'Python' 
 Displays 
- * $WELCOME_MSG
+ * WELCOME MASSAGE
  * Hostname
  * $PID
 
