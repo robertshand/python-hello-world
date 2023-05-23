@@ -1,4 +1,4 @@
-FROM python:2.7-onbuild
+FROM python:3.12-rc-slim
 
 EXPOSE 80
 
