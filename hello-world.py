@@ -2,7 +2,7 @@
 import subprocess,os
 from BaseHTTPServer import BaseHTTPRequestHandler,HTTPServer
 
-PORT_NUMBER = 80
+PORT_NUMBER = 80 #Change this
 
 #This class will handles any incoming request from
 #the browser 
@@ -15,6 +15,7 @@ class myHandler(BaseHTTPRequestHandler):
     self.end_headers()
     # Send the html message
     self.wfile.write("*** Python - Hello World ! ***\n")
+    self.wfile.write("The following is just a tutorial.")
     self.wfile.write("WELCOME_MSG : " + os.getenv('WELCOME_MSG', 'undef') )
     self.wfile.write("\n")
     self.wfile.write("Hostname is : " + subprocess.check_output("uname -n", shell=True))
