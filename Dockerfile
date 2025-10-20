@@ -1,4 +1,4 @@
-FROM python:3.12-rc-slim
+FROM python:3.15-rc-slim
 
 EXPOSE 80
 
